@@ -15,7 +15,7 @@ public class TestPaddyApplication {
 	@RequestMapping("/Available")
 	public String available() {
 		System.out.println("This is inside the Test Paddy Application controller");
-		return "Availables";
+		return "<p2>Availables by manu</p2>";
 	}
 	
 }
